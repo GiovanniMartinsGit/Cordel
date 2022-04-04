@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*{margin: 0%; padding: 0%;}
+
+body{
+    background-image: url('../../HTML/Imagens-HTML/chão.jpg');
+    background-size: 2000px;
+    background-attachment: fixed;
+    background-position: 300px;
+}
+
+.banner-topico {
+    background-image: url(../../HTML/Imagens-HTML/sertão3.jpg);
+    background-size: 100px;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 1px 350px 40px 70px;
+    background-repeat: repeat;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    
+    
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    border-style: solid
+    
+}
+
+.topico-principal {
+    color: white;
+    font-size: 70px;
+    font-family:'passion one' , cursive;
+    
+    
+}
+
+.topico-secundario{
+    color: white;
+    font-family:'passion one' , cursive;
+    font-style: italic;
+}
+
+.container-titulo{
+    background-color: black;
+    height: 180px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    max-width: auto;
+}
+
+
+.first-p {
+    font-family:'Indie Flower', cursive;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    text-align: right;
+}
+
+.second-section {
+    background-image: url(../../HTML/Imagens-HTML/sertão.jpg);    
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 70px 320px 70px 70px;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    
+
+}
+
+.second-p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+   
+    
+}
+
+.container-opacity {
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.third-section{
+    background-image: url(../../HTML/Imagens-HTML/sertão2.jpg);
+    background-size: 1000px;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 70px 350px 70px 70px;
+    background-repeat: no-repeat;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+}
+
+.third-p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;  
+    color: rgb(255, 255, 255); 
+}
+
+div#c2 {
+    background: rgba(41, 39, 39, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.four-section {
+    background-image: url(../../HTML/Imagens-HTML/xilogravura.jpg);
+    background-size: 800px;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 70px 350px 70px 70px;
+    background-repeat: no-repeat;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+}
+
+.four-p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;  
+    color: rgb(255, 255, 255);   
+}
+
+div#c3 {
+    background: rgba(78, 78, 78, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.sixth-p {
+    font-family:'Indie Flower', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+}
+
+.sixth-section{
+    background-image: url(../../HTML/Imagens-HTML/figura5.jpg);
+    background-size: 980px;
+    padding: 70px 350px 80px 70px;
+    border-top: #000;
+    border-style: solid;
+    border-bottom: #000;
+
+}
+
+div#c4{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.seven-p {
+    font-family:'Indie Flower', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: left;
+}
+
+.seven-section {
+    background-image: url(../../HTML/Imagens-HTML/sertoazin.jpeg);
+    background-size: 900px;
+    padding: 70px 350px 80px 70px;
+    border-top: #000;
+    border-style: solid;
+    border-bottom: #000;
+}
+
+div#c5 {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.eighth-p {
+    font-family:'Indie Flower', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: right;
+    padding: 100px;
+}
+
+.eighth-section {
+    background-color: rgb(255, 255, 255);
+    border-top: #000;
+    border-style: solid;
+    border-bottom: #000;
+}
